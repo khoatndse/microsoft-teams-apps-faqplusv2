@@ -64,8 +64,6 @@ SET MSBUILD_PATH=%ProgramFiles(x86)%\MSBuild\14.0\Bin\MSBuild.exe
 :: Deployment
 :: ----------
 
-echo Select NETCORE VERSION
-call :ExecuteCmd dotnet new globaljson --sdk-version 2.2.109
 echo Handling ASP.NET Core Web Application deployment.
 
 :: 1. Restore nuget packages
